@@ -1,0 +1,36 @@
+nav{
+    background-color: #fffffff3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #cbcbcb;
+    z-index: 5050;
+}
+
+footer{
+    border-top: 1px solid #cbcbcb;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.2rem;
+}
+
+nav a{
+    padding: 0 0.2rem;
+}
+
+.nav-box, .footer-box{
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+
+// nav>a {
+//     width:100%;
+//     border: 1px solid;
+//     border-radius: 5px;
+//     margin: 0.1em;
+//     text-align: center;
+//     padding: 0 0.2em;
+// }

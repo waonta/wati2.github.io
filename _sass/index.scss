@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    padding: 50px 0 0 0;
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-wrap {
+    padding: 1rem 0;
+}
+
+

@@ -1,1 +1,19 @@
-Hello World
+---
+layout: default
+title: 바라는 대로
+---
+
+<ul>
+  <!-- site.posts _post폴더 로부터 -->
+  {% for post in site.posts %}
+  <div class="list-wrap">
+    <li>
+      <a href="{{ post.url }}"><h3>
+        {{ post.title | strip_html | truncatewords: 45  }}
+      </h3></a>
+      {{ post.excerpt | strip_html | truncatewords: 45  }}
+    </li>
+  </div>
+  {% endfor %}
+</ul>
+
