@@ -65,8 +65,20 @@ date: 2020-05-05
 3. for문 안에서 댓글관련 for문 수행 reply in replys && 해당 Post ID 만 출력 + 순서와 대댓글 컬럼을 통한 오름차순 적용  
 
 ##### View와 DataBase간 주고받을 데이터
-1. Post List ( 전체 혹은 Limit 5 ), 변수명: posts {postId_1:{컬럼1:값, 컬럼2:값 ...}, postId_2:{컬럼1:값, 컬럼2:값 ...}}
-2. 1에서 나온 Post id에 관한 댓글 데이터들, 변수명: replys {replyId_1{컬럼1:값, 컬럼2:값 ...}, replyId_2{컬럼1:값, 컬럼2:값 ...}}
+1. Post List ( 전체 혹은 Limit 5 ), 변수명: posts 
+{% highlight json linenos %}
+    {
+        postId_1:{컬럼1:값, 컬럼2:값 ...}, 
+        postId_2:{컬럼1:값, 컬럼2:값 ...}
+    }
+{% endhighlight %}
+2. 1에서 나온 Post id에 관한 댓글 데이터들, 변수명: replys
+{% highlight json linenos %}
+    {
+        replyId_1{컬럼1:값, 컬럼2:값 ...},
+        replyId_2{컬럼1:값, 컬럼2:값 ...}
+    }
+{% endhighlight %}
 3. http get만 사용해도 구현 가능
 
 ##### 후순위 (혹은 미구현)
