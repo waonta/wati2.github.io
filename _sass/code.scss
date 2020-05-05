@@ -1,8 +1,13 @@
 pre.lineno {
-    margin-right: 1em;
+    padding: 0 0.5em;
+    border-right: 1px solid #666666;
 }
 
 figure > pre {
     border: 1px solid #232323;
     background-color: #dbdbdb;
+}
+
+figure pre {
+    margin-bottom: 0;
 }
