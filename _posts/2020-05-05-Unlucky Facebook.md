@@ -18,7 +18,7 @@ date: 2020-05-05
 
 ###### 1. Post Table
 
-{:.table .table-bordered .table-sm}
+{:.table .table-striped .table-bordered .table-sm}
 |postId|제목|내용|계정ID|작성일|좋아요|
 |---|---|---|---|---|---|
 |001|일상|잤다|김|2020-05-05|3|
@@ -30,8 +30,8 @@ date: 2020-05-05
 
 ###### 2. 댓글 Table
 
-{:.table .table-bordered .table-sm}
-|replyId|postId|댓글순서|대댓글 순서|댓글내용|시간|계정ID|
+{:.table .table-striped .table-bordered .table-sm}
+|replyId|postId|댓글순서|대댓글순서|댓글내용|시간|계정ID|
 |---|---|---|---|---|---|---|
 |1|001|1 |0|맛있다      | 12:01 | 김 |
 |2|001|2 |0|양 ㄷㄷ     | 12:02 | 이 |
@@ -39,13 +39,13 @@ date: 2020-05-05
 |4|001|1 |1|혼자먹냐?   | 13:50 | 문 |
 |5|001|1 |2|담에 ㄱ?    | 17:00 | 김 |
 
-**순서**는 포스트상에서 댓글의 순서를 의미함 1이면 첫번째 댓글임  
-**대댓글**은 순서의 대댓글의 순서를 의미함 0인경우 대댓글이 아닌 댓글 자체를 의미한다 0보다 큰경우가 실제 대댓글임  
+**댓글순서**는 포스트에서 댓글의 순서를 의미함 1이면 첫번째 댓글임  
+**대댓글순서**는 0인경우 기본댓글을 의미한다 0보다 큰경우가 실제 대댓글임  
 **replyId = primaryKey**
 
 ###### 3. User Table (후순위)
 
-{:.table .table-bordered .table-sm}
+{:.table .table-striped .table-bordered .table-sm}
 |id | pw | friend |
 |---|---|---|
 |김| 1111 | 방,소 |
