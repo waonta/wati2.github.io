@@ -56,6 +56,8 @@ date: 2020-05-05
 
 ##### View
 1. 포스트 리스트 화면
+2. for문으로 전체 post in posts 통해 제목 내용 가져옴
+3. for문 안에서 댓글관련 for문 수행 reply in replys && 해당 Post ID 만 출력 + 순서와 대댓글 컬럼을 통한 오름차순 적용  
 
 ##### View와 DataBase간 주고받을 데이터
 1. Post List ( 전체 혹은 Limit 5 ), 변수명: posts {컬럼1:값, 컬럼2:값 ...}
