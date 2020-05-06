@@ -1,13 +1,28 @@
-pre.lineno {
-    padding: 0 0.5em;
-    border-right: 1px solid #666666;
+$comment: #29a333;
+$white: #f3f3f3;
+
+figure{
+    &.highlight {
+        background-color: black;
+        color: $white;
+    }
+
+    pre.lineno {
+        padding: 0 0.5em;
+        color: $comment;
+        border-right: 1px solid $comment;
+        font-weight: 900;
+    }
+
+    pre {
+        border: none;
+        margin-bottom: 0;
+    }
+
+    & td>pre>span{
+        font-family: "Nanum Gothic Coding","Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;;
+        color:white;
+        font-weight: 700;
+    }
 }
 
-figure > pre {
-    border: 1px solid #232323;
-    background-color: #dbdbdb;
-}
-
-figure pre {
-    margin-bottom: 0;
-}
