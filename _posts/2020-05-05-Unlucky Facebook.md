@@ -70,18 +70,18 @@ replyId (primary key)
 3. http get만 사용해도 구현 가능
 {% highlight json linenos %}
     {
-        postId_1:{컬럼1:값, 컬럼2:값 ...}, 
-        postId_2:{컬럼1:값, 컬럼2:값 ...}
+        postId:{컬럼1:값, 컬럼2:값 ...}, 
+        postId:{컬럼1:값, 컬럼2:값 ...}
     }
 {% endhighlight %}  
 {% highlight json linenos %}
     {
-        replyId_1{컬럼1:값, 컬럼2:값 ...},
-        replyId_2{컬럼1:값, 컬럼2:값 ...}
+        replyId:{컬럼1:값, 컬럼2:값 ...},
+        replyId:{컬럼1:값, 컬럼2:값 ...}
     }
 {% endhighlight %} 
 
-##### 후순위 (아직 구현예정 없음)
+##### 후순위 ( + 생각나는 것들 )
   * 회원가입 기능 / View
   * 로그인 기능 / View
-  * 친구관계에따른 포스트 View 차이 구현
+  * 친구관계에따른 포스트 View 차이
