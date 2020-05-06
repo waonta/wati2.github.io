@@ -26,7 +26,7 @@ date: 2020-05-05
 
 포스트 관리 위한 테이블
 포스트와 댓글은 **1:N** 관계  
-**postId = primaryKey**
+postId (primary key)
 
 ###### 2. 댓글 Table
 
@@ -41,7 +41,7 @@ date: 2020-05-05
 
 **댓글순서**는 글에서 댓글의 순서를 의미함 1이면 글의 첫번째 댓글임  
 **대댓글순서**는 0인경우 기본댓글을 의미한다 0보다 큰경우 대댓글임  
-**replyId = primaryKey**
+replyId (primary key)
 
 ###### 3. User Table (후순위)
 
