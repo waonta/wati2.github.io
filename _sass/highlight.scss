@@ -1,0 +1,49 @@
+// code highlighter
+$comment: #29a333;
+$white: #f3f3f3;
+
+figure.highlight{
+    background-color: black;
+    color: $white;
+
+    table > tbody {
+        width: 100%;
+    }
+
+    table td.code pre, table td.code {
+        width: 100%;
+    }
+
+    table.rough-table {
+        border-collapse: separate;
+        border-spacing: 0;
+        border: none;
+    }
+
+    td{
+        // border: 1px solid red;
+        background-color: #565656;
+        border: none;
+        padding: 0 0.2rem;
+    }
+    
+    pre.lineno {
+        padding: 0;
+        color: $comment;
+        font-weight: 900;
+    }
+
+    pre {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    & td>pre>span, & > pre, & > pre > span {
+        font-family: "Nanum Gothic Coding","Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;;
+        color:white;
+        // font-size: 0.825rem;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}

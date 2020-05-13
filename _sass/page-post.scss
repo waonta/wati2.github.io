@@ -8,7 +8,7 @@
 
 .post-date {
     font-size: 0.8rem;
-    color: #a5a5a5;
+    color: #b8b5b5;
     font-weight: 300;
 }
 
@@ -35,7 +35,7 @@
     }
 
     >table th, >table td {
-        font-size: 0.75em;
+        font-size: 0.75rem;
         font-weight: 300;
         padding: 0.2em 1em;
     }
@@ -49,50 +49,3 @@
     }
 }
 
-// code highlighter
-$comment: #29a333;
-$white: #f3f3f3;
-
-figure.highlight{
-    background-color: black;
-    color: $white;
-
-    table > tbody {
-        width: 100%;
-    }
-
-    table td.code pre, table td.code {
-        width: 100%;
-    }
-
-    table.rough-table {
-        border-collapse: separate;
-        border-spacing: 0;
-        border: none;
-    }
-
-    td.gutter{
-        // border: 1px solid red;
-        background-color: #565656;
-        border: none;
-        padding: 0 0.2em;
-    }
-    
-    pre.lineno {
-        padding: 0;
-        color: $comment;
-        font-weight: 900;
-    }
-
-    pre {
-        border: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    & td>pre>span{
-        font-family: "Nanum Gothic Coding","Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;;
-        color:white;
-        font-weight: 700;
-    }
-}
