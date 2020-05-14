@@ -4,7 +4,11 @@ layout: default
 <div class="post_title">
     <h1>{{ page.title }}</h1>
     <div class="post-date">
-        <span>{{ page.date | date: "%Y-%m-%d" }}</span>
+        <span>작성 {{ page.date | date: "%Y-%m-%d" }} </span>
+        {% if page.dateEdit %}
+        <br>
+        <span>수정 {{ page.dateEdit | date: "%Y-%m-%d" }}</span>
+        {% endif %}
     </div>
 </div>
 
