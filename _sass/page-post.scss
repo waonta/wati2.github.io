@@ -3,6 +3,11 @@
     margin: 0 auto;
     padding: 1.5rem 1rem;
     min-height: 90vh;
+    
+    & > p {
+        font-size: 0.875rem;
+        font-weight: 300;
+    }
 
 }
 
@@ -30,8 +35,12 @@
     font-weight: 300;
     }
     
-    p, li {
-        font-size: 0.875em;
+    p {
+        font-size: 0.875rem;
+    }
+
+    ul {
+        list-style-type: symbols();
     }
 
     >table th, >table td {
