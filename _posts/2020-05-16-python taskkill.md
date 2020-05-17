@@ -5,8 +5,8 @@ date: 2020-05-16
 dateEdit: 2020-05-18
 ---
 
-python으로 윈도우에서 응답없음 프로그램 종료하기  
-[코드](https://github.com/wati2/python-taskkill)
+#### python으로 윈도우에서 응답없음 프로그램 종료하기  
+[https://github.com/wati2/python-taskkill](https://github.com/wati2/python-taskkill)
 
 #### 1. **현상**
 
