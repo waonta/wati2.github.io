@@ -5,14 +5,14 @@
     min-height: 90vh;
     
     & > p {
-        font-size: 0.875rem;
+        // font-size: 1rem;
         font-weight: 300;
     }
 
 }
 
 .post-date {
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: #b8b5b5;
     font-weight: 300;
 }
@@ -35,10 +35,6 @@
     font-weight: 300;
     }
     
-    p, li{
-        font-size: 0.875rem;
-    }
-
     ul {
         list-style-type: symbols();
     }
