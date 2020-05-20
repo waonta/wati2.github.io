@@ -11,6 +11,7 @@ title: 바라는 대로
       <a href="{{ post.url }}"><h3>
         {{ post.title | strip_html | truncatewords: 45  }}
       </h3></a>
+      <!-- <span>{{ post.date | date: "%Y-%m-%d %H:%M"}}</span> -->
       {{ post.excerpt | strip_html | truncatewords: 45  }}
     </li>
   </div>
