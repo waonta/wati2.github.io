@@ -2,7 +2,7 @@
 layout: post
 title: python + taskkill
 date: 2020-05-16
-dateEdit: 2020-05-18
+dateEdit: 2020-05-22
 ---
 
 #### python으로 윈도우에서 응답없음 프로그램 종료하기  
