@@ -14,7 +14,16 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+
+  <!-- page.headTitle이 있으면 headTitle로 아니면 page.title로 표시함 -->
+  {% if page.headTitle  %}
+  <title>{{ page.headTitle }}</title>
+  {% elsif page.title %}
+    <title>{{ page.title }}</title>
+  {% else %}
+    <title>제목 없음</title>
+  {% endif %}
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
