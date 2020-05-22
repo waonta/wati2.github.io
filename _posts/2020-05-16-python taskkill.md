@@ -1,6 +1,7 @@
 ---
 layout: post
 title: python + taskkill
+headTitle: Automation Anywhere AA 익스플로러 응답없음
 date: 2020-05-16
 dateEdit: 2020-05-22
 ---
