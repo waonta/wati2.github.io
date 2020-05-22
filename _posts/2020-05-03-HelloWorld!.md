@@ -11,6 +11,7 @@ editDate: 2020-05-22
 [http://jekyllrb-ko.github.io/](http://jekyllrb-ko.github.io/)  
 
 #### 2. 기타
+[Liquid(jekyll template에서 조건문 및 For문 사용 + @)](https://shopify.github.io/liquid/)
 [Bootstrap](https://getbootstrap.com/)  
 [Favicon](https://favicon.io/)  
 [Noto Sans KR - fontsGoogle](https://fonts.google.com/)  
