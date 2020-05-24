@@ -11,11 +11,11 @@ editDate: 2020-05-22
 [http://jekyllrb-ko.github.io/](http://jekyllrb-ko.github.io/)  
 
 #### 2. 기타
-[Liquid(jekyll template에서 조건문 및 For문 사용 + @)](https://shopify.github.io/liquid/)
+[Liquid(jekyll template에서 조건문 및 For문 사용 + @)](https://shopify.github.io/liquid/)  
 [Bootstrap](https://getbootstrap.com/)  
 [Favicon](https://favicon.io/)  
 [Noto Sans KR - fontsGoogle](https://fonts.google.com/)  
-[Sass Basics](https://sass-lang.com/guide)
+[Sass Basics](https://sass-lang.com/guide)  
 
 #### 3. 앞으로 github pages 추가 작업 하고 싶은 것 (Memo)
 + 지속적인 UI 개선 (CSS)
