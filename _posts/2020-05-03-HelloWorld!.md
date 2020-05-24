@@ -2,20 +2,22 @@
 layout: post
 title: 안녕, Jekyll
 date: 2020-05-03
-editDate: 2020-05-22
+editDate: 2020-05-24
 ---
 
 ### github pages - Jekyll 만들기 참고
 
 #### 1. Jekyll 한국어 페이지
-[http://jekyllrb-ko.github.io/](http://jekyllrb-ko.github.io/)  
+[**http://jekyllrb-ko.github.io/**](http://jekyllrb-ko.github.io/)  
 
 #### 2. 기타
-[Liquid(jekyll template에서 조건문 및 For문 사용 + @)](https://shopify.github.io/liquid/)  
-[Bootstrap](https://getbootstrap.com/)  
-[Favicon](https://favicon.io/)  
-[Noto Sans KR - fontsGoogle](https://fonts.google.com/)  
-[Sass Basics](https://sass-lang.com/guide)  
++ [**Liquid**](https://shopify.github.io/liquid/)  
+    - jekyll template에서 조건문 및 For문 사용 + @  
+<br>
++ [**Bootstrap**](https://getbootstrap.com/)  
++ [**Favicon**](https://favicon.io/)  
++ [**Noto Sans KR - fontsGoogle**](https://fonts.google.com/)  
++ [**Sass Basics**](https://sass-lang.com/guide)  
 
 #### 3. 앞으로 github pages 추가 작업 하고 싶은 것 (Memo)
 + 지속적인 UI 개선 (CSS)
@@ -23,6 +25,7 @@ editDate: 2020-05-22
 <br>- Tag별로 표시할 때 보고싶은 태그를 선택가능한 버튼 ui 적용
 <br>- 메인에서 게시글에 날짜 표시 / 작성일, 수정일  
 <br>
++ 자동으로 수정일 업데이트 하게 하기 / 지금은 수동입력
 + 이메일 이미지로 footer에 표시하기 ( 이메일 크롤링 방지 )
 + 게시글 작성 시점과 상관없이 항상 노출하고 싶은 글은 메인에 표시하게끔 하기
 <br>태그에 [#메인고정]에 해당하는걸로 하면 될 듯
