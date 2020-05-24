@@ -2,7 +2,7 @@
 layout: post
 title: 안녕, Jekyll
 date: 2020-05-03
-editDate: 2020-05-24
+dateEdit: 2020-05-25
 ---
 
 ### github pages - Jekyll 만들기 참고
